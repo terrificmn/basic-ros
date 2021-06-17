@@ -1,0 +1,11 @@
+<launch>
+    <group ns="yh_group1">
+        <node pkg="yh_tutorial" type="pub_test" name="p_test1"/>
+        <node pkg="yh_tutorial" type="sub_test" name="s_test1"/>
+    </group>
+    <group ns="yh_group2">
+        <node pkg="yh_tutorial" type="pub_test" name="p_test2"/>
+        <node pkg="yh_tutorial" type="sub_test" name="s_test2"/>
+    </group>
+    <!-- pkg=는 패키지이름 type=은 실제실행할 노드이름(파일이름) name=은 그 해당노드가 실행이 될 때 붙어지는 이름 -->
+</launch>
